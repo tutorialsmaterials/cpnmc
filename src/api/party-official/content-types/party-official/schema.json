@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "party_officials",
+  "info": {
+    "singularName": "party-official",
+    "pluralName": "party-officials",
+    "displayName": "party official"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "about": {
+      "type": "blocks"
+    },
+    "facebook": {
+      "type": "string"
+    }
+  }
+}
